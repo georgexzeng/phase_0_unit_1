@@ -1,1 +1,28 @@
-/* include your css here */
+ul{
+  list-style: none;
+}
+
+#container{
+  margin: 0 auto 0 auto;
+  width: 80%;
+}
+
+#sidebar{
+  width: 12em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding-top: 1em;
+}
+
+#mainText{
+  margin-left: 12em;
+  padding-left: 1em;
+  padding-top: 0.2em;
+  border-left: 0.2em double black;
+  }
+
+  a{
+  	text-decoration: none;
+  	color: #2980b9;
+  }
