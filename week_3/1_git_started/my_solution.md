@@ -54,8 +54,48 @@ Define the following commands and describe how they work/what they do.
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+
+<p>method 1:</p>
+
+<ol>
+<li>git add [file]</li>
+<li>git commit -m "message"</li>
+<li>git push</li>
+</ol>
+
+<p>method 2:</p>
+
+<ol>
+<li>git commit - a -m "message"</li>
+<li>git push</li>
+</ol>
+
 - Fetch changes
+
+<ol>
+	<li>First check current remote - git remote -v</li>
+	<li>Set up a new remote as necessary - git remote add upstream (URL)</li>
+	<li>Verify new remote - get remote -v</li>
+	<li>Fetch changes - git fetch upstream</li>
+	<li>Branch the changes - git branch - va</li>
+	<li>Verify you're on master branch - git branch</li>
+	<li>Merge changes - git merge upstream/master</li>
+</ol>
+
 - Commit locally
+
+<p>method 1:</p>
+
+<ol>
+<li>git add [file]</li>
+<li>git commit -m "message"</li>
+</ol>
+
+<p>method 2:</p>
+
+<ol>
+<li>git commit - a -m "message"</li>
+</ol>
 
 ## Release 5: Errors you encountered
 1. Error
@@ -63,3 +103,5 @@ Define the following commands and describe how they work/what they do.
 3. Cause (explain the error)
 
 ## Release 6: Reflection
+
+<p>Using command line for git is powerful and cool.  I'm a huge fan!</p>
