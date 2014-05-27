@@ -29,16 +29,16 @@ Define the following commands and describe how they work/what they do.
 <p>git fetch - download objects and refs from another repo.  fetches named heads or tages from one or more other repos, along with objects necessary to complete them.  ref names and their objects names of fetched refs are stored in .git/FETCH_HEAD.  git fetch can fetch from eithe ra single repo or from several repos at once.  when no remote is specified, by default the origin remote will be used. </p>
 
 #### log
-<div>git log - show commit logs.  command takes options applicable to teh git rev-list command to control what is show and how, and options applicable to the git diff-* commands to control how the changes each commit introduces are shown.</div>
+<p>git log - show commit logs.  command takes options applicable to teh git rev-list command to control what is show and how, and options applicable to the git diff-* commands to control how the changes each commit introduces are shown.</p>
 
 #### merge
-<div>git merge - join two or more develompent histories together.  incorporates changes from named commits (since their histories diverged from the current brnach) into the current branch.  command is used by git pull to cincorporate changes from another repo and can be used by hand to merge changes from one branch into another."</div>
+<p>git merge - join two or more develompent histories together.  incorporates changes from named commits (since their histories diverged from the current brnach) into the current branch.  command is used by git pull to cincorporate changes from another repo and can be used by hand to merge changes from one branch into another."</p>
 
 #### pull
-<!-- Your defnition here -->
+<p>git pull - fetch from and integrate with another repo or a local branch.  incorporaates changes from a remote repo into current branch.  in default mode, git pull is shorthand for git fetch followed by git merge FETCH_HEAD.</p>
 
 #### push
-<!-- Your defnition here -->
+<p>git push</p>
 
 #### reset
 <!-- Your defnition here -->
