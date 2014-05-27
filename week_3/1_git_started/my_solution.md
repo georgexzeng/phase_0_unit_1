@@ -40,13 +40,13 @@ Define the following commands and describe how they work/what they do.
 <p>git pull - fetch from and integrate with another repo or a local branch.  incorporaates changes from a remote repo into current branch.  in default mode, git pull is shorthand for git fetch followed by git merge FETCH_HEAD.</p>
 
 #### push
-<p>git push</p>
+<p>git push - update remote refs along with associated objects.  updates remote refs using local refs, while sending objects necessary to complete the given refs.  </p>
 
 #### reset
-<!-- Your defnition here -->
+<p>git reset - resets current HEAD to specified state.  in the first and second form, copy entries from tree-ish to the index.  IN the third form, set the current branch head (HEAD) to commit, optionally modifying index and working tree to match.  </p>
 
 #### rm
-<!-- Your defnition here -->
+<p>git rm - remove files from the working tree and from the index.  remoe friles form the index or from the working tree and the index.  will remove a file from just your working directory.  files being removed have to be identiacal to the tip of the branch and no updates to their contects can be staged in the index, though the default behavior can be overriden with teh -f option.  </p>
 
 #### status
 
