@@ -19,11 +19,13 @@ Define the following commands and describe how they work/what they do.
 #### commit
 <p>git commit - record changes to the repo.  stores the current contents of the index in a new commit along with a log message from the user describing changes.  content can be added in several ways:</p>
 
+<ul>
 <li>by using git add to incrementally add changes to the idnex before using commit command</li>
 <li>by using git rm to remove files from the working tree and index again before using the commit command</li>
 <li>by listing files as arguments to the commit comand, in which case the commit will ignore changes staged in the index and instead record the current content of the listed files</li>
 <li>by using the -a switch with teh commit comand to automaticallly add changes from all known files and to automatically "rm" files in teh index that have been removed from teh working tree, and then perfrom the actual commit</li>
 <li>by using the -interacte or -path switches with the commit command to decide one by one whichesfiles or hunks should be part of the commit before finalizing operations</li>
+</ul>
 
 #### fetch
 <p>git fetch - download objects and refs from another repo.  fetches named heads or tages from one or more other repos, along with objects necessary to complete them.  ref names and their objects names of fetched refs are stored in .git/FETCH_HEAD.  git fetch can fetch from eithe ra single repo or from several repos at once.  when no remote is specified, by default the origin remote will be used. </p>
