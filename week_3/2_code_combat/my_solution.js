@@ -238,7 +238,29 @@ this.attackXY(47, 50);  // Shoot once in the middle of the ogres
 // So, position and aim carefully.
   
  
-Reflection:
-Write your reflection here.
+Release 3: Answer the following questions
+
+When you are finished with all of the campaigns, answer the following questions. You may want to look at some resources on JavaScript before answering.
+
+What is this referring to? Think programming-wise rather than in the terms of the game.
+
+this is referring to whatever object is selected or is being instructed to change.  
+
+The object that this refers to is redetermined every time control enters a new execution context and remains 
+fixed until control shifts to a different context. The value of this is dependent upon two things: 
+The type of code being executed (i.e., global, function, or eval) and the caller of that code.
+
+
+What does the () do in JavaScript?
+
+() represents inputs into whatever object or function that is being called in javascript
+
+What is the point of the semicolons?
+
+semicolones is to denote the end of a statement
+
+Release 4: Reflect
+ 
+In the reflection section of your 'my_solution.js` file, reflect on your learning using the reflection guidelines. NOTE: Reflections are mandatory! 
 
 This was a lot of fun - but javascript as a language feels very different and more mathematical than ruby. I also noticed that the paragraphs do not work the same way as HTML.  Hrmph.
