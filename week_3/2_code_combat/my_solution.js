@@ -259,7 +259,7 @@ What is the point of the semicolons?
 semicolones is to denote the end of a statement
 
 Release 4: Reflect
-
+ 
 In the reflection section of your 'my_solution.js` file, reflect on your learning using the reflection guidelines. NOTE: Reflections are mandatory! 
 
 This was a lot of fun - but javascript as a language feels very different and more mathematical than ruby. I also noticed that the paragraphs do not work the same way as HTML.  Hrmph.
