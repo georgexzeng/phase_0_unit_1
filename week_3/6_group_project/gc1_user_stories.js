@@ -15,6 +15,6 @@
 
 // Test 3:
 // For the third test, we want to find the number that is directly in the middle
-// of a list, for a list with an odd amount of numbers.  If the list has an odd amount of numbers,
+// of a list, for a list with an odd amount of numbers.  If the list has an even amount of numbers,
 // we want to find the average of the two middlemost numbers.  Return this value after these steps are done.
 
