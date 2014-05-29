@@ -5,12 +5,12 @@
 // Here is my part of the challenge:
 
 // Test 1:
-// For the first test, I want to add up all of the numbers in a list and 
+// For the first test, we want to add up all of the numbers in a list and 
 // return this value.
 
 
 // Test 2:
-// For the second test, I want to add up all of numbers in a list and divide
+// For the second test, we want to add up all of numbers in a list and divide
 // this sum by the amount of numbers.  Return this value after these two steps are done.
 
 // Test 3:
