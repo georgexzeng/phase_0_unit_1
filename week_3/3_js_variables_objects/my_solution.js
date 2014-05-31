@@ -1,24 +1,25 @@
-// I paired [by myself, with:] on this challenge.
+// I paired by myself on this challenge.
 
 // __________________________________________
 // Write your code below.
 
+var secretNumber = 7;
 
+var password = "just open the door";
 
+var allowedIn = false;
 
-
-
-
+var members = ['John', 'Bob', 'George', 'Mary']
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
-
+// This unit actually taught me that javascript syntax is very similar to Ruby syntax
+// The key primitives are strings and numbers, etc.
+// There are a few key differences though:
+// 1. in javascript, it's key to use the 'var' name when denoting values - otherwise they variables
+// are global ones and that's very bad
+// 2. in javascript, you use turtleCase instead of snake_case
+// other than that, javascript syntax is almost the same as ruby syntax
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
