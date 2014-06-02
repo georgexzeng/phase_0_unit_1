@@ -72,14 +72,24 @@ Define the following commands and describe how they work/what they do.
 
 - Fetch changes
 
+<p>method 1:</p>
 <ol>
 	<li>First check current remote - git remote -v</li>
 	<li>Set up a new remote as necessary - git remote add upstream (URL)</li>
-	<li>Verify new remote - get remote -v</li>
+	<li>Verify new remote - git remote -v</li>
 	<li>Fetch changes - git fetch upstream</li>
 	<li>Branch the changes - git branch - va</li>
 	<li>Verify you're on master branch - git branch</li>
 	<li>Merge changes - git merge upstream/master</li>
+	<li>Push changes to github - git push</li>
+</ol>
+
+<p>method 2:</p>
+<ol>
+	<li>Fetch changes - git fetch upstream</li>
+	<li>Branch the changes - git branch - va</li>
+	<li>Merge changes - git merge upstream/master</li>
+	<li>Push changes to github - git push</li>
 </ol>
 
 - Commit locally
